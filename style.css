@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+root{
+    --gry:#333333
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.logo{
+    margin:25px;
+}
+
+.left {
+  background-image: url(./images/pexels-rfstudio-3819572.jpg);
+  background-size: cover;
+  position: relative;
+  width: 35%;
+  height: 100vh;
+}
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 36px 64px 0 48px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.items {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 35px;
+}
+.items::before {
+  content: "";
+  height: 2px;
+  width: 600px;
+  margin-top: 10px;
+  background-color: grey;
+}
+
+
+
+.top-container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.first {
+  font-size: 150px;
+  font-family: "Merriweather";
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+.secondtxt {
+  margin-left: 140px;
+  font-size: 150px;
+  line-height: 0.7;
+  font-family: "Merriweather";
+  font-weight: 700;
+  color: #333333;
+}
+.intext{
+    font-size: 1.5rem;
+    font-family: "Merriweather";
+    color: #333333be;
+ position: relative;
+ top: 220px;
+ left: 30px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-left: 145px;
+ 
+}
+.social {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+  align-items: center;
+}
+
+.butns {
+    background: #333333;
+    color: #f3f3f3;
+    position: relative;
+    left: 68%;
+    top: 15px;
+    border: none;
+    font-family: "Merriweather";
+  font-weight: 700;
+  padding: 16px 75px;
+ 
+}
+.bitems {
+    display: flex;
+    margin-top: 22px;
+    width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: #5d5d5d;
+}
+.bitem span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: #5d5d5d;
+  margin-right: 20px;
+  position: relative;
+}
+.bitem span::after {
+  content: "";
+  width: 1px;
+  height: 55px;
+  position: absolute;
+  left: 4px;
+  background: #5d5d5d;
+}
+
+.END{
+    display: flex;
+    margin-top: 2rem;
+  }
+.image-container {
+    margin-left: 12rem;
+  }
+.texts {
+  margin-bottom: 1rem;
+}
+
+.img-bottom {
+  background-image: url(./images/pexels-cottonbro-7974875.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+}
+.arrow {
+  height: 200px;
+  width: 200px;
+  background-image: url(./images/down-arrow.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 1305px) {
+nav{
+    display: none;
+}
+.top-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 48px;
+    margin-left: 145px;
+   
+  }
+  .butns {
+ 
+    position: relative;
+    left: 38%;
+    top: 25px;
+ 
+ 
+}
+.bitems {
+    display: none;
+}
+
+
+}
+@media screen and (max-width: 1005px) {
+    .left{
+        display: none;
+    }
+    .first {
+        font-size: 100px;
+      }
+      .secondtxt {
+       
+        font-size: 100px;
+        
+      }
+      .intext{
+      
+     position: relative;
+     top: 20px;
+     left: 440px;
+    }
+    .arrow{
+        display:none;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
