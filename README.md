@@ -16,13 +16,12 @@
 
 
 
-<p align="right">(<a href="#top"> back to top </a>)</p>
 
 ## Links
+[![Netlify Status](https://api.netlify.com/api/v1/badges/246d6c9c-76e5-4e91-ac46-50611212efc7/deploy-status)](https://app.netlify.com/sites/dance-landingpage/deploys)
+[demo](https://dance-landingpage.netlify.app/)
 
-See it on **Netlify** :
 
-[![Netlify][netlify-shield]][project-url]
 
 
 <!-- LEARNT -->
@@ -35,9 +34,8 @@ See it on **Netlify** :
 
 Took me almost `3` hours to build this from scratch. Majority of the time was spent on making it mobile responsive.
 
-<p align="right">(<a href="#top"> back to top </a>)</p>
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/246d6c9c-76e5-4e91-ac46-50611212efc7/deploy-status)](https://app.netlify.com/sites/dance-landingpage/deploys)
 
 
 <!-- Tools and Technologies -->
